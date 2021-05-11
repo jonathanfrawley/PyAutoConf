@@ -12,7 +12,6 @@ with open(join(this_dir, "requirements.txt")) as f:
     requirements = f.read().split("\n")
 
 setup(
-    #name="autoconf",
     name="autoconf",
     version=environ.get("VERSION", "1.0.dev0"),
     description="PyAuto Configration",
